@@ -1,0 +1,89 @@
+html, body {
+				height: 100v;
+}
+
+body {
+    background: white;
+    color: black;
+    font-family: "Arial";
+    scrollbar-base-color:  #c6d6ee;
+    scrollbar-arrow-color: #000000;
+		font-size: 12pt;
+}
+
+.center {
+	text-align: center;
+	}
+
+#nav {
+				float: left;
+				margin-right: 10px;
+}
+
+a {
+	font-weight: bold;
+	color: blue;
+	text-decoration: underline;
+	}
+
+
+#last2min {
+	color: orange;
+	}
+
+#last30sec {
+	color: red;
+	}
+
+#t1 timer {
+		font-size: 2200%;
+		font-weight: bold;
+		}
+
+table {
+	border-top: #c6d6ee 2px solid; 
+	border-right: #c6d6ee 2px solid; 
+	border-left: #c6d6ee 2px solid; 
+	border-bottom: #c6d6ee 2px solid; 
+	border-radius: 25px;
+	font-size: 12pt;
+	margin: 30px;
+}
+
+td {
+	font-weight: bold; 
+	font-size: 10pt;
+	padding: 25px;
+	}
+
+th {
+	font-weight: bold; 
+	padding: 5px;
+	font-size: 12pt;
+	background: #c6d6ee;
+	border-radius: 25px 25px 5px 5px;
+	}
+
+th.plain {
+	border-radius: 0px 0px 0px 0px;
+}
+th.left {
+	border-radius: 25px 0px 0px 0px;
+}
+th.right {
+	border-radius: 0px 25px 0px 0px;
+}
+winner { font-size: 46pt; }
+
+#final {
+	background: url('winner.png') no-repeat center;
+	height: 266px;
+	background-size: 500px 266px;
+	font-size: 46pt;
+}
+#results {
+	font-size: 30pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: center;
+}
