@@ -3,27 +3,26 @@ html, body {
 }
 
 body {
-    background: white;
-    color: black;
-    font-family: "Arial";
-    scrollbar-base-color:  #c6d6ee;
-    scrollbar-arrow-color: #000000;
-		font-size: 12pt;
+  background: white;
+  color: black;
+  font-family: "Arial";
+  scrollbar-base-color:  #c6d6ee;
+  scrollbar-arrow-color: #000000;
+ font-size: 12pt;
 }
 
 .center {
 	text-align: center;
-	}
+}
 
 #nav {
-				float: left;
-				margin-right: 10px;
+	float: left;
+	margin-right: 10px;
 }
 
 a {
 	font-weight: bold;
 	color: blue;
-	text-decoration: underline;
 	}
 
 input[type="submit"] {
@@ -42,7 +41,7 @@ input[type="submit"] {
 
 #t1 {
 	text-align: center;
-}
+	}
 
 #t1 timer {
 		font-size: 2200%;
@@ -82,14 +81,7 @@ th.left {
 th.right {
 	border-radius: 0px 25px 0px 0px;
 }
-winner { font-size: 46pt; }
 
-#final {
-	background: url('winner.png') no-repeat center;
-	height: 266px;
-	background-size: 500px 266px;
-	font-size: 46pt;
-}
 #results {
 	font-size: 30pt;
 	font-weight: bold;
