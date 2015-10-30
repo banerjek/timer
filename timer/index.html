@@ -20,7 +20,8 @@
 </td></tr></table>
 <p />&nbsp;<p />
 </center>
-	<center><form name="f">
+	<center><form name="f" onSubmit="startTimer(document.f); return false">
+									<input type="submit" />
 									<a class="blue" onClick="startTimer(document.f); return false;">Start Timer</a><p />
 									<b>Min: </b><input name="minutes" size="2" /> <b />Sec: </b><input name="seconds" size="2" /> 
 	</div>

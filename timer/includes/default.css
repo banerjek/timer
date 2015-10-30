@@ -26,6 +26,11 @@ a {
 	text-decoration: underline;
 	}
 
+input[type="submit"] {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+}
 
 #last2min {
 	color: orange;
