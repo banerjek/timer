@@ -35,6 +35,10 @@ a {
 	color: red;
 	}
 
+#t1 {
+	text-align: center;
+}
+
 #t1 timer {
 		font-size: 2200%;
 		font-weight: bold;
