@@ -32,10 +32,6 @@ input[type="submit"] {
 }
 
 #last2min {
-	color: orange;
-	}
-
-#last30sec {
 	color: red;
 	}
 

@@ -40,8 +40,8 @@ function display() {
    seconds=59;
  	}
 
- if(minutes<0){
-    document.getElementById('t1').innerHTML='<timer><div id="last30sec">DONE</div></timer>';
+ if(minutes<0 || (seconds == 0 && minutes == 0)){
+    document.getElementById('t1').innerHTML='<timer><div id="last2min">DONE</div></timer>';
     }
  else { 
     milisec-=1;
@@ -52,7 +52,7 @@ function display() {
 			txtseconds = '0' + seconds;
       }
 
-    if (seconds < 60 && minutes == 0) {
+    if (seconds < 60 && seconds > 30 && minutes == 0) {
 			txtseconds = seconds + "." + milisec;
 			txtminutes = '';
       }
@@ -65,7 +65,9 @@ function display() {
         }
 
     if (seconds < 30 && minutes == 0) {
-        tmpfinal = '<div id="last30sec">' + tmp + '</div>';
+        if (milisec < 5) {
+							tmpfinal = '<div id="last2min" style="visibility: hidden">' + tmp + '</div>';
+					}
         }
     document.getElementById('t1').innerHTML='<timer>' + tmpfinal + '</timer>';
     timeoutHandle = setTimeout("display()",100);
