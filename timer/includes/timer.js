@@ -64,7 +64,7 @@ function display() {
         tmpfinal = '<div id="last2min">' + tmp + '</div>';
         }
 
-    if (seconds < 30 && minutes == 0) {
+    if (seconds <= 30 && minutes == 0) {
         if (milisec < 5) {
 							tmpfinal = '<div id="last2min" style="visibility: hidden">' + tmp + '</div>';
 					}
